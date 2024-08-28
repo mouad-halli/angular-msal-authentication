@@ -1,0 +1,19 @@
+.nav-container {
+    width: 100%;
+    height: 6dvh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem;
+    color: var(--text-color);
+}
+
+.list-container {
+    display: flex;
+    gap: 0 3rem;
+    list-style: none;
+}
+
+a, span  {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,15 @@
+<nav class="nav-container">
+    <div class="logo">
+        <h1>LOGO</h1>
+    </div>
+    <ul class="list-container">
+        <li><a routerLink="/">Home</a></li>
+        <ng-container *ngIf="user$ | async as user ; else loginButton">
+            <span>{{user.email}}</span>
+            <li (click)="logout()" style="cursor: pointer;" ><a>Logout</a></li>
+        </ng-container>
+        <ng-template #loginButton>
+            <li><a routerLink="/login">Login</a></li>
+        </ng-template>
+    </ul>
+</nav>

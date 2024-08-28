@@ -1,0 +1,14 @@
+.btn-icon, button, button > label {
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    gap: 0 0.5rem;
+    background-color: transparent;
+    color: var(--text-secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: white;
+}
