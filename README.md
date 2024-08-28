@@ -86,5 +86,5 @@ Contributions are welcome! Please open an issue or submit a pull request to cont
 
 ## Acknowledgments
 
-- [MSAL Angular](https://github.com/AzureAD/microsoft-authentication-library-for-js/tree/dev/samples/angular) - Microsoft Authentication Library for Angular
+- [MSAL Angular](https://github.com/AzureAD/microsoft-authentication-library-for-js) - Microsoft Authentication Library for Angular
 - [Microsoft Identity Platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/) - Authentication and Authorization services
