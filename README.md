@@ -33,7 +33,7 @@ This project demonstrates how to integrate Microsoft authentication into an Angu
    ```
 3. **Configure MSAL**
 
-    Replace YOUR_AZURE_APP_CLIENT_ID and YOUR_AZURE_APP_TENANT_ID and REDIRECT_URI and YOUR_BACKEND_URL in the src/environments/environment.development.ts file with your Azure AD application credentials.
+    Replace YOUR_AZURE_APP_CLIENT_ID and YOUR_AZURE_APP_TENANT_ID in the src/environments/environment.development.ts file with your Azure AD application credentials.
    
    ```javascript
       export const environment = {
